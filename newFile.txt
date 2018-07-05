@@ -1,0 +1,7 @@
+1.UTF-8国际编码，GBK中文编码。GBK包含GB2312，即如果通过GB2312编码后可以通过GBK解码，反之可能不成立;
+2、web tomcat:默认是ISO8859-1，不支持中文的
+3.java.nio.charset.Charset.defaultCharset() 获得平台默认字符编码；
+4.getBytes() 是通过平台默认字符集进行编码；
+
+
+modify
